@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const FirstComponent = () => {
+const FirstComponent = (props) => {
   return (
-    <div>My First Component</div>
-  )
-}
+    <div>
+      <h3 style={{color:props.color,backgroundColor:props.bgColor}}>My First Component</h3>
+    </div>
+  );
+};
 
-export default FirstComponent
+export default FirstComponent;

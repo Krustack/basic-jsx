@@ -8,7 +8,7 @@ const App = () => {
   const bool = true;
   return (
     <div style={{ textAlign: 'center' }}>
-      <FirstComponent/>
+      <FirstComponent color="#f00" bgColor="blue"/>
       <h1>
         {name} {surName}
       </h1>
