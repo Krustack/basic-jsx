@@ -1,5 +1,6 @@
 import React from 'react';
 import FirstComponent from './components/FirstComponent';
+import SecondComponent from './components/SecondComponent';
 
 const App = () => {
   var count = 0;
@@ -9,6 +10,7 @@ const App = () => {
   return (
     <div style={{ textAlign: 'center' }}>
       <FirstComponent color="#f00" bgColor="blue"/>
+      <SecondComponent color="blue" bgColor="orange"/>
       <h1>
         {name} {surName}
       </h1>
