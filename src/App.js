@@ -1,4 +1,5 @@
 import React from 'react';
+import FirstComponent from './components/FirstComponent';
 
 const App = () => {
   var count = 0;
@@ -7,6 +8,7 @@ const App = () => {
   const bool = true;
   return (
     <div style={{ textAlign: 'center' }}>
+      <FirstComponent/>
       <h1>
         {name} {surName}
       </h1>
